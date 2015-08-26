@@ -19,6 +19,21 @@
 		2CBE875C1B8D939600D7F1E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE87441B8D939600D7F1E0 /* UIKit.framework */; };
 		2CBE87641B8D939600D7F1E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE87621B8D939600D7F1E0 /* InfoPlist.strings */; };
 		2CBE87661B8D939600D7F1E0 /* CustomComboBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE87651B8D939600D7F1E0 /* CustomComboBoxTests.m */; };
+		2CBE87761B8D93A600D7F1E0 /* ComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE87711B8D93A600D7F1E0 /* ComboBox.m */; };
+		2CBE87771B8D93A600D7F1E0 /* ComboBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE87721B8D93A600D7F1E0 /* ComboBox.xib */; };
+		2CBE87781B8D93A600D7F1E0 /* ComboBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE87741B8D93A600D7F1E0 /* ComboBoxCell.m */; };
+		2CBE87791B8D93A600D7F1E0 /* ComboBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE87751B8D93A600D7F1E0 /* ComboBoxCell.xib */; };
+		2CBE87801B8D94D800D7F1E0 /* CustomComboBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBE877E1B8D94D800D7F1E0 /* CustomComboBoxViewController.m */; };
+		2CBE87811B8D94D800D7F1E0 /* CustomComboBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE877F1B8D94D800D7F1E0 /* CustomComboBoxViewController.xib */; };
+		2CBE87841B8D990500D7F1E0 /* dropdownarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE87831B8D990500D7F1E0 /* dropdownarrow.png */; };
+		2CBE87861B8D9BD400D7F1E0 /* CustomComboBoxViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE87851B8D9BD400D7F1E0 /* CustomComboBoxViewController_iPhone.xib */; };
+		2CBE878F1B8D9F2000D7F1E0 /* friday.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE87881B8D9F2000D7F1E0 /* friday.jpeg */; };
+		2CBE87901B8D9F2000D7F1E0 /* monday.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE87891B8D9F2000D7F1E0 /* monday.jpeg */; };
+		2CBE87911B8D9F2000D7F1E0 /* sunday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE878A1B8D9F2000D7F1E0 /* sunday.png */; };
+		2CBE87921B8D9F2000D7F1E0 /* saturday.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE878B1B8D9F2000D7F1E0 /* saturday.jpeg */; };
+		2CBE87931B8D9F2000D7F1E0 /* thursday.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE878C1B8D9F2000D7F1E0 /* thursday.png */; };
+		2CBE87941B8D9F2000D7F1E0 /* tuesday.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE878D1B8D9F2000D7F1E0 /* tuesday.jpeg */; };
+		2CBE87951B8D9F2000D7F1E0 /* wednesday.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2CBE878E1B8D9F2000D7F1E0 /* wednesday.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +63,25 @@
 		2CBE87611B8D939600D7F1E0 /* CustomComboBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomComboBoxTests-Info.plist"; sourceTree = "<group>"; };
 		2CBE87631B8D939600D7F1E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CBE87651B8D939600D7F1E0 /* CustomComboBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomComboBoxTests.m; sourceTree = "<group>"; };
+		2CBE87701B8D93A600D7F1E0 /* ComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboBox.h; sourceTree = "<group>"; };
+		2CBE87711B8D93A600D7F1E0 /* ComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboBox.m; sourceTree = "<group>"; };
+		2CBE87721B8D93A600D7F1E0 /* ComboBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComboBox.xib; sourceTree = "<group>"; };
+		2CBE87731B8D93A600D7F1E0 /* ComboBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboBoxCell.h; sourceTree = "<group>"; };
+		2CBE87741B8D93A600D7F1E0 /* ComboBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboBoxCell.m; sourceTree = "<group>"; };
+		2CBE87751B8D93A600D7F1E0 /* ComboBoxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComboBoxCell.xib; sourceTree = "<group>"; };
+		2CBE877B1B8D93DA00D7F1E0 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		2CBE877D1B8D94D800D7F1E0 /* CustomComboBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomComboBoxViewController.h; path = CustomComboBoxViewController/CustomComboBoxViewController.h; sourceTree = "<group>"; };
+		2CBE877E1B8D94D800D7F1E0 /* CustomComboBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomComboBoxViewController.m; path = CustomComboBoxViewController/CustomComboBoxViewController.m; sourceTree = "<group>"; };
+		2CBE877F1B8D94D800D7F1E0 /* CustomComboBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomComboBoxViewController.xib; path = CustomComboBoxViewController/CustomComboBoxViewController.xib; sourceTree = "<group>"; };
+		2CBE87831B8D990500D7F1E0 /* dropdownarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdownarrow.png; sourceTree = "<group>"; };
+		2CBE87851B8D9BD400D7F1E0 /* CustomComboBoxViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomComboBoxViewController_iPhone.xib; path = CustomComboBoxViewController/CustomComboBoxViewController_iPhone.xib; sourceTree = "<group>"; };
+		2CBE87881B8D9F2000D7F1E0 /* friday.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friday.jpeg; sourceTree = "<group>"; };
+		2CBE87891B8D9F2000D7F1E0 /* monday.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monday.jpeg; sourceTree = "<group>"; };
+		2CBE878A1B8D9F2000D7F1E0 /* sunday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunday.png; sourceTree = "<group>"; };
+		2CBE878B1B8D9F2000D7F1E0 /* saturday.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saturday.jpeg; sourceTree = "<group>"; };
+		2CBE878C1B8D9F2000D7F1E0 /* thursday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thursday.png; sourceTree = "<group>"; };
+		2CBE878D1B8D9F2000D7F1E0 /* tuesday.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuesday.jpeg; sourceTree = "<group>"; };
+		2CBE878E1B8D9F2000D7F1E0 /* wednesday.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wednesday.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +141,9 @@
 		2CBE87461B8D939600D7F1E0 /* CustomComboBox */ = {
 			isa = PBXGroup;
 			children = (
+				2CBE877C1B8D94A900D7F1E0 /* CustomComboBoxViewController */,
+				2CBE877A1B8D93DA00D7F1E0 /* Define */,
+				2CBE876F1B8D93A600D7F1E0 /* ComboBox */,
 				2CBE874F1B8D939600D7F1E0 /* AppDelegate.h */,
 				2CBE87501B8D939600D7F1E0 /* AppDelegate.m */,
 				2CBE87521B8D939600D7F1E0 /* Images.xcassets */,
@@ -118,6 +155,7 @@
 		2CBE87471B8D939600D7F1E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CBE87821B8D990500D7F1E0 /* image */,
 				2CBE87481B8D939600D7F1E0 /* CustomComboBox-Info.plist */,
 				2CBE87491B8D939600D7F1E0 /* InfoPlist.strings */,
 				2CBE874C1B8D939600D7F1E0 /* main.m */,
@@ -142,6 +180,62 @@
 				2CBE87621B8D939600D7F1E0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CBE876F1B8D93A600D7F1E0 /* ComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE87701B8D93A600D7F1E0 /* ComboBox.h */,
+				2CBE87711B8D93A600D7F1E0 /* ComboBox.m */,
+				2CBE87721B8D93A600D7F1E0 /* ComboBox.xib */,
+				2CBE87731B8D93A600D7F1E0 /* ComboBoxCell.h */,
+				2CBE87741B8D93A600D7F1E0 /* ComboBoxCell.m */,
+				2CBE87751B8D93A600D7F1E0 /* ComboBoxCell.xib */,
+			);
+			path = ComboBox;
+			sourceTree = "<group>";
+		};
+		2CBE877A1B8D93DA00D7F1E0 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE877B1B8D93DA00D7F1E0 /* Define.h */,
+			);
+			name = Define;
+			path = CustomComboBox/Define;
+			sourceTree = SOURCE_ROOT;
+		};
+		2CBE877C1B8D94A900D7F1E0 /* CustomComboBoxViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE877D1B8D94D800D7F1E0 /* CustomComboBoxViewController.h */,
+				2CBE877E1B8D94D800D7F1E0 /* CustomComboBoxViewController.m */,
+				2CBE877F1B8D94D800D7F1E0 /* CustomComboBoxViewController.xib */,
+				2CBE87851B8D9BD400D7F1E0 /* CustomComboBoxViewController_iPhone.xib */,
+			);
+			name = CustomComboBoxViewController;
+			sourceTree = "<group>";
+		};
+		2CBE87821B8D990500D7F1E0 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE87871B8D9F2000D7F1E0 /* days */,
+				2CBE87831B8D990500D7F1E0 /* dropdownarrow.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		2CBE87871B8D9F2000D7F1E0 /* days */ = {
+			isa = PBXGroup;
+			children = (
+				2CBE87881B8D9F2000D7F1E0 /* friday.jpeg */,
+				2CBE87891B8D9F2000D7F1E0 /* monday.jpeg */,
+				2CBE878A1B8D9F2000D7F1E0 /* sunday.png */,
+				2CBE878B1B8D9F2000D7F1E0 /* saturday.jpeg */,
+				2CBE878C1B8D9F2000D7F1E0 /* thursday.png */,
+				2CBE878D1B8D9F2000D7F1E0 /* tuesday.jpeg */,
+				2CBE878E1B8D9F2000D7F1E0 /* wednesday.jpeg */,
+			);
+			path = days;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +313,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CBE87841B8D990500D7F1E0 /* dropdownarrow.png in Resources */,
+				2CBE87811B8D94D800D7F1E0 /* CustomComboBoxViewController.xib in Resources */,
+				2CBE87951B8D9F2000D7F1E0 /* wednesday.jpeg in Resources */,
 				2CBE874B1B8D939600D7F1E0 /* InfoPlist.strings in Resources */,
+				2CBE87931B8D9F2000D7F1E0 /* thursday.png in Resources */,
 				2CBE87531B8D939600D7F1E0 /* Images.xcassets in Resources */,
+				2CBE87901B8D9F2000D7F1E0 /* monday.jpeg in Resources */,
+				2CBE87791B8D93A600D7F1E0 /* ComboBoxCell.xib in Resources */,
+				2CBE87911B8D9F2000D7F1E0 /* sunday.png in Resources */,
+				2CBE87921B8D9F2000D7F1E0 /* saturday.jpeg in Resources */,
+				2CBE87771B8D93A600D7F1E0 /* ComboBox.xib in Resources */,
+				2CBE87941B8D9F2000D7F1E0 /* tuesday.jpeg in Resources */,
+				2CBE878F1B8D9F2000D7F1E0 /* friday.jpeg in Resources */,
+				2CBE87861B8D9BD400D7F1E0 /* CustomComboBoxViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +345,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CBE87761B8D93A600D7F1E0 /* ComboBox.m in Sources */,
 				2CBE87511B8D939600D7F1E0 /* AppDelegate.m in Sources */,
+				2CBE87801B8D94D800D7F1E0 /* CustomComboBoxViewController.m in Sources */,
+				2CBE87781B8D93A600D7F1E0 /* ComboBoxCell.m in Sources */,
 				2CBE874D1B8D939600D7F1E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

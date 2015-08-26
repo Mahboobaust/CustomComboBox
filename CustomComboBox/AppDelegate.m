@@ -13,6 +13,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    if (IDIOM==IPAD) {
+        customComboBoxViewController=[[CustomComboBoxViewController alloc] initWithNibName:@"CustomComboBoxViewController" bundle:nil];
+    }
+    else
+    {
+        customComboBoxViewController=[[CustomComboBoxViewController alloc] initWithNibName:@"CustomComboBoxViewController_iPhone" bundle:nil];
+    }
+    self.window.rootViewController=customComboBoxViewController;
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

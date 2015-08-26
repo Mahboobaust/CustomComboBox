@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CustomComboBoxViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    CustomComboBoxViewController *customComboBoxViewController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
